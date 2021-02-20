@@ -16,6 +16,7 @@ close all;
 Screen('Close')
 Screen('Preference', 'SkipSyncTests', 1);
 rng('shuffle');
+addpath(genpath('./toolBox'))
 
 % OpenGL
 AssertOpenGL;
